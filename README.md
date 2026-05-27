@@ -8,8 +8,8 @@ Kratka web stranica o AI alatima za razvoj softvera. Projekt prikazuje početnu 
 - Kviz za brzo provjeravanje znanja.
 - AI redatelj sekciju s video sadržajem.
 - Detalje o alatima, autoru i dokumentaciji.
-
-## Slike za ubaciti
+- Dinamičko dodavanje i brisanje alata kroz formu
+- Rest servise
 
 | Početna | Kviz | AI redatelj |
 | --- | --- | --- |
