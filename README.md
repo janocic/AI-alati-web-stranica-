@@ -24,6 +24,4 @@ npm start
 
 Stranica se otvara na `http://localhost:3000`.
 
-## Kratko
 
-Repozitorij možeš nazvati `AI-alati` na GitHubu, a ovaj projekt je spreman za push nakon što dodaš remote i napraviš prvi commit.
