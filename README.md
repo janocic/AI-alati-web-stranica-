@@ -11,12 +11,9 @@ Kratka web stranica o AI alatima za razvoj softvera. Projekt prikazuje početnu 
 - Dinamičko dodavanje i brisanje alata kroz formu
 - Rest servise
 
-|Početna| 
 ![AI Alati - Početna](data/AI%20Alati%20-%20Po%C4%8Detna.png)
-|Kviz|
 ![Čovijek ili AI](data/Čovjek%20ili%20AI.png)
-|AI redatelj| 
-![AI redatelj](data/AIkaoredatelj.png)
+![AI redatelj](data/AI%20kao%20redatelj.png)
 
 ## Pokretanje
 
