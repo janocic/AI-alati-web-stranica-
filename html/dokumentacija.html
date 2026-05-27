@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Jakov Anočić">
+  <meta name="keywords" content="AI, dokumentacija, HTML, CSS, FOI">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dokumentacija</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/dizajn/janocic23.css">
+  <link rel="stylesheet" href="/dizajn/media.css">  <script src="/JSklijent/janocic23.js" defer></script>
+  <script src="/JSklijent/janocic23_obrazac.js" defer></script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+  <style>
+    .error-input {
+      border: 2px solid red !important;
+    }
+    .error-message {
+      color: red;
+      font-size: 0.8rem;
+      margin-top: -10px;
+      margin-bottom: 10px;
+      display: none;
+    }
+    .error-message.visible {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="navigacijski-omotac">
+      <div class="zaglavlje-logo-naslov">
+        <h1>AI Alati</h1>
+        <a href="index.html" class="link-logo">
+          <img src="../resursi/slike/AI_alati_logo.png" alt="AI Alati Logo" class="logo-desno">
+        </a>
+      </div>      <nav>
+        <ul>
+          <li><a href="index.html">Početna</a></li>
+          <li><a href="o_autoru.html">O autoru</a></li>
+          <li><a href="dokumentacija.html">Dokumentacija</a></li>
+          <li><a href="kviz.html">Kviz</a></li>
+          <li><a href="filmovi.html">AI redatelj</a></li>
+          <li><a href="/alati">AI Alati</a></li>
+          <li><a href="dokumentacija.html#kontakt">Obrazac validacija</a></li>
+          <li><a href="/api/alati" target="_blank">REST servisi</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+    <main class="container my-5 text-center">
+      <h2 class="naslov-sekcije">Dokumentacija</h2>
+      <div class="table-responsive">
+        <table class="table table-bordered table-info-autor mx-auto">
+          <thead>
+            <tr>
+              <th>Element</th>
+              <th>Status izrade</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><a href="index.html">Početna</a></td>
+              <td class="fw-bold text-center">Napravljeno</td>
+            </tr>
+            <tr>
+              <td><a href="o_autoru.html">O autoru</a></td>
+              <td class="fw-bold text-center">Napravljeno</td>
+            </tr>
+            <tr>
+              <td><a href="index.html#cesto-postavljena-pitanja">Tablica ČPP</a></td>
+              <td class="fw-bold text-center">Napravljeno</td>
+            </tr>
+            <tr>
+              <td><a href="#kontakt">Kontakt (obrazac1)</a></td>
+              <td class="fw-bold text-center">Napravljeno</td>
+            </tr>
+            <tr>
+              <td><a href="../html/kviz.html#kontakt">Vaše mišljenje o kvizu (obrazac 2)</a></td>
+              <td class="fw-bold text-center">Napravljeno</td>
+            </tr>
+            <tr>
+              <td><a href="detalji.html#omot1">Unutarnji okvir 1</a></td>
+              <td class="fw-bold text-center">Napravljeno</td>
+            </tr>
+            <tr>
+              <td><a href="detalji.html#omot2">Unutarnji okvir 2</a></td>
+              <td class="fw-bold text-center">Napravljeno</td>
+            </tr>
+            <tr>
+              <td><a href="detalji.html#omot3">Unutarnji okvir 3</a></td>
+              <td class="fw-bold text-center">Napravljeno</td>
+            </tr>
+            <tr>
+              <td><a href="o_autoru.html#galerija">Galerija</a></td>
+              <td class="fw-bold text-center">Napravljeno</td>
+            </tr>
+            <tr>
+              <td><a href="index.html#cesto-postavljena-pitanja">Dodatno – sklopivi izbornik</a></td>
+              <td class="fw-bold text-center">Napravljeno</td>
+            </tr>
+            <tr>
+              <td><a href="index.html#klizac">Dodatno – animacija naslova na svakom slajdu</a></td>
+              <td class="fw-bold text-center">Napravljeno</td>
+            </tr>
+            <tr>
+              <td><a href="kviz.html">Kviz (ostale stranice)</a></td>
+              <td class="fw-bold text-center">Napravljeno</td>
+            </tr>
+            <tr>
+              <td><a href="filmovi.html">AI redatelj (ostale stranice)</a></td>
+              <td class="fw-bold text-center">Napravljeno</td>
+            </tr>
+            <tr>
+              <td><strong>Popis CSS datoteka :</strong><br>
+                <code>janocic23.css</code><br>
+                <code>media.css</code>
+              </td>
+              <td>
+                <a href="https://jigsaw.w3.org/css-validator/validator?uri=https://spider.foi.hr/OWT/2025/zadaca_01/janocic23/css/janocic23.css" target="_blank">
+                  Prolazi validaciju
+                </a><br>
+                <a href="https://jigsaw.w3.org/css-validator/validator?uri=https://spider.foi.hr/OWT/2025/zadaca_01/janocic23/css/media.css" target="_blank">
+                  Prolazi validaciju
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    
+    
+    <section id="kontakt" class="mt-5">
+        <h2 class="naslov-sekcije text-center mb-4">Kontaktirajte me</h2>        <form id="kontaktForm" action="https://spider.foi.hr/OWT/materijali/ispis_forme.php" method="post" aria-label="Obrazac za kontakt" novalidate>
+          <div class="d-flex flex-wrap justify-content-center gap-4">
+            <div class="zeleni-okvir">
+              <label for="ime">Ime:</label>
+              <input type="text" id="ime" name="ime" required aria-required="true">
+              <div class="error-message" id="ime-error">Molimo unesite ime.</div>
+      
+              <label for="prezime">Prezime:</label>
+              <input type="text" id="prezime" name="prezime" required>
+              <div class="error-message" id="prezime-error">Molimo unesite prezime.</div>
+      
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+              <div class="error-message" id="email-error">Molimo unesite ispravnu e-mail adresu.</div>
+      
+              <label for="tel">Telefon:</label>
+              <input type="tel" id="tel" name="telefon">
+      
+              <label for="lozinka">Lozinka:</label>
+              <input type="password" id="lozinka" name="lozinka">
+              
+              <label for="datum">Datum rođenja:</label>
+              <input type="date" id="datum" name="datum">
+              
+              <label for="vrijeme">Vrijeme kontaktiranja:</label>
+              <input type="time" id="vrijeme" name="vrijeme">
+
+              <label for="kontaktiranje">Odaberi termin za kontaktiranje:</label>
+              <input type="datetime-local" id="kontaktiranje" name="kontaktiranje">
+      
+              <label for="boja">Omiljena boja:</label>
+              <input type="color" id="boja" name="boja">
+
+              <label for="web">Tvoj web (opcionalno):</label>
+              <input type="url" id="web" name="web">              <label for="dob">Dob (0–100):</label>
+        <output id="prikazDobi" for="dob">50</output>
+        <input 
+          type="range" 
+          id="dob" 
+          name="dob" 
+          min="0" 
+          max="100" 
+          value="50" 
+        >
+
+              <label for="cijena">Cijena (€):</label>
+              <input type="number" id="cijena" name="cijena" step="0.01" placeholder="0.00">
+              
+              <label for="kolicina">Količina:</label>
+              <input type="number" id="kolicina" name="kolicina" placeholder="1">
+                <label for="spol">Spol:</label>
+              <select id="spol" name="spol">
+                <option value="">-- Odaberite --</option>
+                <option value="muško">Muško</option>
+                <option value="žensko">Žensko</option>
+                <option value="drugo">Drugo</option>
+              </select>              <fieldset class="form-group radio-group">
+                <legend>Kako ste čuli za nas?</legend>
+                <input type="radio" id="preporuka" name="izvor" value="preporuka" required>
+                <label for="preporuka">Preporuka prijatelja</label>
+                
+                <input type="radio" id="internet" name="izvor" value="internet">
+                <label for="internet">Pretragom na internetu</label>
+                
+                <input type="radio" id="drustvene" name="izvor" value="drustvene">
+                <label for="drustvene">Društvene mreže</label>
+              </fieldset>
+      
+      
+              <label>Preferirani AI alati:</label>
+              <div class="grupa-alati">
+              <input type="checkbox" id="gpt" name="alati[]" value="GPT-4o">
+              <label for="gpt">GPT-4o</label>
+      
+              <input type="checkbox" id="gemini" name="alati[]" value="Gemini">
+              <label for="gemini">Gemini</label>              <input type="checkbox" id="copilot" name="alati[]" value="Copilot">
+              <label for="copilot">Copilot</label>
+              </div>
+
+              <label for="godina-iskustva">Godina iskustva s AI alatima:</label>
+              <input type="number" id="godina-iskustva" name="godina-iskustva" min="0" max="20" step="1" required>
+
+              <label for="budzet">Mjesečni budžet za AI alate (€):</label>
+              <input type="number" id="budzet" name="budzet" min="0" max="10000" step="0.01" required>
+
+              <label for="poruka">Poruka:</label>
+              <textarea id="poruka" name="poruka" rows="4" cols="50" required></textarea>
+              <div class="error-message" id="poruka-error">Molimo unesite poruku.</div>
+      
+              <div class="mt-3">
+                <button type="submit">Pošalji</button>
+                <button type="reset">Poništi</button>
+              </div>
+
+            </div>
+          </div>
+        </form>
+      </section>
+
+  </main>
+
+  <footer>
+    <p>
+      <a href="https://openai.com/" target="_blank"><img src="../resursi/slike/GPT-render.png" alt="GPT-4o"></a>
+      <a href="https://gemini.google.com/app" target="_blank"><img src="../resursi/slike/Gemini-logo-render.png" alt="Gemini 2.5"></a>
+      <a href="https://copilot.microsoft.com/chats/9tYpLmwzU3WypnCg8JPJp" target="_blank"><img src="../resursi/slike/Copilot-logo-render.png" alt="Copilot"></a>
+    </p>
+    <p>
+      Jakov Anočić – &copy; 2025
+      <a href="http://validator.w3.org/check?uri=https://spider.foi.hr/OWT/2025/zadaca_01/janocic23/html/dokumentacija.html" target="_blank">
+        <img src="https://spider.foi.hr/OWT/materijali/slike/HTML5.png" alt="HTML5 Validator">
+      </a>
+    </p>  </footer>
+  
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const form = document.getElementById('kontaktForm');
+      
+      const requiredFields = [
+        { id: 'ime', errorId: 'ime-error', message: 'Molimo unesite ime.' },
+        { id: 'prezime', errorId: 'prezime-error', message: 'Molimo unesite prezime.' },
+        { id: 'email', errorId: 'email-error', message: 'Molimo unesite ispravnu e-mail adresu.' },
+        { id: 'poruka', errorId: 'poruka-error', message: 'Molimo unesite poruku.' }
+      ];
+      
+      function isValidEmail(email) {
+        const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return regex.test(email);
+      }
+        function prikaziGresku(field, errorElement) {
+        field.classList.add('error-input');
+        errorElement.classList.add('visible');
+      }
+      
+      function sakrijGresku(field, errorElement) {
+        field.classList.remove('error-input');
+        errorElement.classList.remove('visible');
+      }
+      
+      form.addEventListener('submit', function(event) {
+        let hasErrors = false;
+        
+        requiredFields.forEach(field => {
+          const inputField = document.getElementById(field.id);
+          const errorElement = document.getElementById(field.errorId);
+          
+          if (field.id === 'email') {            if (!inputField.value || !isValidEmail(inputField.value)) {
+              prikaziGresku(inputField, errorElement);
+              hasErrors = true;
+            } else {
+              sakrijGresku(inputField, errorElement);
+            }          } else {
+            if (!inputField.value.trim()) {
+              prikaziGresku(inputField, errorElement);
+              hasErrors = true;
+            } else {
+              sakrijGresku(inputField, errorElement);
+            }
+          }});
+        
+        if (hasErrors) {
+          event.preventDefault();
+        }
+      });
+      
+      requiredFields.forEach(field => {
+        const inputField = document.getElementById(field.id);
+        const errorElement = document.getElementById(field.errorId);
+          inputField.addEventListener('input', function() {
+          if (field.id === 'email') {
+            if (!this.value || !isValidEmail(this.value)) {
+              prikaziGresku(inputField, errorElement);
+            } else {
+              sakrijGresku(inputField, errorElement);
+            }
+          } else {
+            if (!this.value.trim()) {
+              prikaziGresku(inputField, errorElement);
+            } else {
+              sakrijGresku(inputField, errorElement);
+            }
+          }
+        });});
+      
+      const dobSlider = document.getElementById('dob');
+      const dobOutput = document.getElementById('prikazDobi');
+      
+      if (dobSlider && dobOutput) {
+        dobSlider.addEventListener('input', function() {
+          dobOutput.textContent = this.value;
+        });
+      }
+    });
+  </script>
+</body>
+</html>

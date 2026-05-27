@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Jakov Anočić">
+  <meta name="keywords" content="AI, alati, umjetna inteligencija, GPT, Gemini, Copilot">  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Alati - Početna</title>
+  <link rel="stylesheet" href="/dizajn/janocic23.css">
+  <link rel="stylesheet" href="/dizajn/media.css">  <script src="/JSklijent/janocic23.js" defer></script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <div class="navigacijski-omotac">      <div class="zaglavlje-logo-naslov">
+        <h1>AI Alati</h1>
+        <a href="index.html" class="link-logo">
+          <img src="/resursi/slike/AI_alati_logo.png" alt="AI Alati Logo" class="logo-desno">
+        </a>
+      </div>      <nav>
+        <ul>
+          <li><a href="index.html">Početna</a></li>
+          <li><a href="o_autoru.html">O autoru</a></li>
+          <li><a href="dokumentacija.html">Dokumentacija</a></li>
+          <li><a href="kviz.html">Kviz</a></li>
+          <li><a href="filmovi.html">AI redatelj</a></li>
+          <li><a href="/alati">AI Alati</a></li>
+          <li><a href="dokumentacija.html#kontakt">Obrazac validacija</a></li>
+          <li><a href="/api/alati" target="_blank">REST servisi</a></li>
+        </ul>
+      </nav>
+    </div>  </header>
+
+<div id="klizac">
+  <div class="slajdovi">
+    <div class="slajd">
+      <img src="../resursi/slike/Pozadina-Carasoul.png" alt="GPT-4o logo" class="slika-klizac">
+      <img src="../resursi/slike/GPT-render.png" alt="GPT render" class="okretna-animacija">
+      <h2>GPT-4o</h2>
+      <a href="detalji.html#gpt" class="gumb-klizac" target="_blank">Detalji</a>
+    </div>
+    <div class="slajd">
+      <img src="../resursi/slike/Pozadina-Carasoul.png" alt="Gemini logo" class="slika-klizac">
+      <img src="../resursi/slike/Gemini-render.png" alt="Gemini render" class="okretna-animacija">
+      <h2>Gemini 2.5</h2>
+      <a href="detalji.html#gemini" class="gumb-klizac" target="_blank">Detalji</a>
+    </div>
+    <div class="slajd">
+      <img src="../resursi/slike/Pozadina-Carasoul.png" alt="Copilot logo" class="slika-klizac">
+      <img src="../resursi/slike/Copilot-render.png" alt="Copilot render" class="okretna-animacija">
+      <h2>Copilot</h2>
+      <a href="detalji.html#copilot" class="gumb-klizac" target="_blank">Detalji</a>
+    </div>
+  </div>
+
+  <button id="prevBtn" class="klizac-btn">&#10094;</button>
+  <button id="nextBtn" class="klizac-btn">&#10095;</button>
+
+  <div class="tockice-klizac">
+    <span class="tockica"></span>
+    <span class="tockica"></span>
+    <span class="tockica"></span>
+  </div>
+</div>
+
+
+  <div id="ai-paragrafi">
+
+   
+    <div class="ai-blok poravnaj-lijevo">
+      <div class="ai-paragraf gpt tekst-gpt">
+        <sup id="fnref-1"><a href="#fn-1">[1]</a></sup>
+        <p>
+          Alati umjetne inteligencije poput GPT-4o omogućuju automatizaciju kompleksnih zadataka pisanja koda, uključujući generiranje funkcija, refaktoriranje, testiranje i otkrivanje grešaka. 
+          <span class="istaknuto">Korištenje AI alata</span> smanjuje vrijeme potrebno za razvoj aplikacija, a istovremeno pruža visoku razinu točnosti i konzistentnosti u pisanju koda. Programeri sve češće koriste ove sustave kao asistente u raznim fazama razvoja, od početnog planiranja i dizajna arhitekture do implementacije i optimizacije performansi.
+          Osim što ubrzavaju procese, AI alati smanjuju broj pogrešaka, olakšavaju timsku suradnju i omogućuju brže uvođenje novih funkcionalnosti u proizvode.
+        </p>
+      </div>
+      <img src="../resursi/slike/GPT-render.png" alt="GPT Logo" class="ikona-ai" > 
+    </div>
+  
+  
+    <div class="ai-blok poravnaj-desno">
+      <div class="ai-paragraf gemini tekst-gemini">
+        <sup id="fnref-2"><a href="#fn-2">[2]</a></sup>
+        <p>
+          Fokusira se na dubinsku analizu koda i pravovremeno predviđanje potencijalnih sigurnosnih propusta, 
+          čime pomaže programerima u izbjegavanju ranjivosti već u ranim fazama razvoja. 
+          Uz precizno učenje na temelju velikih i raznolikih skupova podataka, Gemini uspješno detektira obrasce, anomalije i neučinkovitosti u strukturi koda. 
+          Osim toga, nudi inteligentna i <span class="istaknuto">prilagođena rješenja</span> za optimizaciju postojećih funkcionalnosti, čime značajno poboljšava performanse i stabilnost aplikacije. 
+          Sustavno pruža preporuke za sigurnost, održavanje i usklađivanje s industrijskim standardima.
+        </p>
+      </div>
+      <img src="../resursi/slike/Gemini-logo-render.png" alt="Gemini Logo" class="ikona-ai-gemini" >
+    </div>
+  
+  
+    <div class="ai-blok poravnaj-lijevo">
+      <div class="ai-paragraf copilot tekst-copilot">
+        <sup id="fnref-3"><a href="#fn-3">[3]</a></sup>
+        <p>
+          Alat se integrira direktno u razvojno okruženje i <span class="istaknuto">predlaže rješenja</span> u stvarnom vremenu, 
+          omogućujući programerima da brže i efikasnije razvijaju softver. 
+          Korisnici ističu njegovu sposobnost generiranja funkcionalnog koda na temelju kratkih opisa, što znatno ubrzava iteracije. 
+          Zahvaljujući analizi konteksta, alat nudi korisne prijedloge, prepoznaje greške i sugerira optimizacije, čime postaje idealan za početnike i iskusne programere. 
+          Takva pomoć povećava produktivnost, skraćuje vrijeme razvoja i podiže kvalitetu konačnog rješenja kroz kontinuirano učenje i automatizaciju.
+        </p>
+      </div>
+      <img src="../resursi/slike/Copilot-logo-render.png" alt="Copilot Logo" class="ikona-ai" >
+    </div>
+  </div>
+  
+  
+  <div id="fusnota">
+    <p id="fn-1"><sup>[1]</sup> Prompt: "Napiši paragraf o ulozi alata umjetne inteligencije u modernom programiranju." <a href="#fnref-1">&#8593;</a></p>
+    <p id="fn-2"><sup>[2]</sup> Prompt: "Napiši paragraf o glavnom fokusu Geminia kao AI alata" <a href="#fnref-2">&#8593;</a></p>
+    <p id="fn-3"><sup>[3]</sup> Prompt: "Napiši paragraf o ulozi Microsoft Copilot asistenta u svakodnevnom kodiranju." <a href="#fnref-3">&#8593;</a></p>
+  </div>
+
+
+  <div id="cesto-postavljena-pitanja">
+    <br>
+    <h2 class="naslov-sekcije">Često postavljana pitanja</h2>
+    <table class="tablica-cpp">
+  
+      
+      <tr class="cpp-sklopivo">
+        <td>
+          
+          <input type="checkbox" id="pitanje1">
+          <label for="pitanje1">Što je GPT-4o?</label>
+          <div class="faq-odgovor">
+            GPT-4o je multimodalni model sposoban za istovremenu obradu zvuka, slike i teksta u stvarnom vremenu.
+          </div>
+        </td>
+      </tr>
+  
+      <tr class="cpp-sklopivo">
+        <td>
+          <input type="checkbox" id="pitanje2">
+          <label for="pitanje2">Koje mogućnosti nudi Gemini 2.5?</label>
+          <div class="faq-odgovor">
+            Omogućuje generiranje slika i analizu teksta na višoj razini uz AI preporuke.
+          </div>
+        </td>
+      </tr>
+  
+      <tr class="cpp-sklopivo">
+        <td>
+          <input type="checkbox" id="pitanje3">
+          <label for="pitanje3">Čemu služi Copilot?</label>
+          <div class="faq-odgovor">
+            Copilot je programerski pomoćnik koji predlaže kod u stvarnom vremenu.
+          </div>
+        </td>
+      </tr>
+  
+      <tr class="cpp-sklopivo">
+        <td>
+          <input type="checkbox" id="pitanje4">
+          <label for="pitanje4">Jesu li alati besplatni?</label>
+          <div class="faq-odgovor">
+            Osnovne verzije su najčešće besplatne, dok napredne zahtijevaju plaćanje.
+          </div>
+        </td>
+      </tr>
+  
+      <tr class="cpp-sklopivo">
+        <td>
+          <input type="checkbox" id="pitanje5">
+          <label for="pitanje5">Kako se štiti privatnost?</label>
+          <div class="faq-odgovor">
+            Putem enkripcije, anonimnosti i lokalnog pokretanja modela.
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+  
+  <footer>
+    <p>
+      <a href="https://openai.com/" target="_blank"><img src="../resursi/slike/GPT-render.png" alt="GPT-4o"></a>
+      <a href="https://gemini.google.com/app" target="_blank"><img src="../resursi/slike/Gemini-logo-render.png" alt="Gemini 2.5"></a>
+      <a href="https://copilot.microsoft.com/chats/9tYpLmwzU3WypnCg8JPJp" target="_blank"><img src="../resursi/slike/Copilot-logo-render.png" alt="Copilot"></a>
+    </p>
+    <p>
+      Jakov Anočić – &copy; 2025
+      <a href="http://validator.w3.org/check?uri=https://spider.foi.hr/OWT/2025/zadaca_01/janocic23/index.html" target="_blank">
+        <img src="https://spider.foi.hr/OWT/materijali/slike/HTML5.png" alt="HTML5 Validator">
+      </a>
+    </p>
+  </footer>
+</body>
+</html>

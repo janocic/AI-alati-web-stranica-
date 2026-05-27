@@ -1,0 +1,108 @@
+@media (max-width: 1200px) {
+    .rimski-brojevi-horizontal {
+      gap: 10rem;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .rimski-brojevi-horizontal {
+      gap: 5rem;
+    }
+  }
+  
+  @media (max-width: 900px) {
+    header {
+      padding: 0.5rem 1rem;
+      height: auto;
+    }
+  
+    nav ul {
+      gap: 1rem;
+    }
+  
+    .logo {
+      font-size: 1.4rem;
+    }
+  }
+  
+  @media (max-width: 800px) {
+    form {
+      width: 90%;
+    }
+  
+    .ikona-ai,
+    .ikona-ai-gemini {
+      width: 60px;
+      height: 60px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .autor-box {
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+    }
+  
+    .slika-autor-wrapper {
+      justify-content: center;
+    }
+  
+    #kontakt .form-grupa-dvojna {
+      flex-direction: column;
+    }
+  
+    .d-flex.align-items-stretch.flex-wrap {
+      flex-direction: column;
+    }
+  
+    .zeleni-okvir {
+      width: 100%;
+      margin-right: 0;
+    }
+  
+    .rimski-brojevi-horizontal {
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .cpp-sklopivo td {
+      font-size: 0.95rem;
+      padding: 1rem;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+  
+    #klizac,
+    #cesto-postavljena-pitanja {
+      width: 95%;
+      margin: 1rem auto;
+    }
+  
+    .ai-blok {
+      gap: 1rem;
+    }
+  
+    .navigacijski-omotac {
+      flex-direction: column;
+      align-items: center; 
+      justify-content: center;
+    }
+  
+    header {
+      height: auto; 
+    }
+  
+    .masonry-galerija {
+      column-count: 2;
+    }
+  }
+
+  
+  

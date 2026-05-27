@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Jakov Anočić">
+  <meta name="keywords" content="AI, čovjek, slike, generirano, stvarno, umjetna inteligencija">  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Čovjek ili AI?</title>
+  <link rel="stylesheet" href="/dizajn/janocic23.css">
+  <link rel="stylesheet" href="/dizajn/media.css">
+  <script src="/JSklijent/janocic23.js" defer></script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="navigacijski-omotac">
+      <div class="zaglavlje-logo-naslov">
+        <h1>AI Alati</h1>
+        <a href="index.html" class="link-logo">
+          <img src="../resursi/slike/AI_alati_logo.png" alt="AI Alati Logo" class="logo-desno">
+        </a>
+      </div>      <nav>
+        <ul>
+          <li><a href="index.html">Početna</a></li>
+          <li><a href="o_autoru.html">O autoru</a></li>
+          <li><a href="dokumentacija.html">Dokumentacija</a></li>
+          <li><a href="kviz.html">Kviz</a></li>
+          <li><a href="filmovi.html">AI redatelj</a></li>
+          <li><a href="/alati">AI Alati</a></li>
+          <li><a href="dokumentacija.html#kontakt">Obrazac validacija</a></li>
+          <li><a href="/api/alati" target="_blank">REST servisi</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="covjek-ai-stranica">
+    <div id="cesto-postavljena-pitanja">
+    <h2 class="naslov-sekcije">Kviz</h2>
+    <p class="uvodni-tekst"> Ovaj kviz je zamišljen kao kratka provjera sposobnosti prepoznavanja AI generiranih slika u svrhu prikaza sve brže rastuće sposobnosti AI alata za generiranje realističnih slika.</p>
+  </div>
+      <div class="galerija-ai-test">
+        <div class="par-slika">
+          <div class="slika-test kartica">
+            <input type="radio" name="slika1" id="slika1-c">
+            <input type="radio" name="slika1" id="slika1-a">
+            <img src="../resursi/slike/bosch_prava.jpg" alt="Test Slika 1" class="test-slika">
+            <div class="odabir">
+              <label for="slika1-c">Čovjek</label>
+              <label for="slika1-a">AI</label>
+            </div>
+          </div>
+          <div class="slika-test kartica">
+            <input type="radio" name="slika2" id="slika2-c">
+            <input type="radio" name="slika2" id="slika2-a">
+            <img src="../resursi/slike/bosh_lazna.png" alt="Test Slika 2" class="test-slika">
+            <div class="odabir">
+              <label for="slika2-c">Čovjek</label>
+              <label for="slika2-a">AI</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="par-slika">
+          <div class="slika-test kartica">
+            <input type="radio" name="slika3" id="slika3-c">
+            <input type="radio" name="slika3" id="slika3-a">
+            <img src="../resursi/slike/michelangelo_prava.jpg" alt="Test Slika 3" class="test-slika">
+            <div class="odabir">
+              <label for="slika3-c">Čovjek</label>
+              <label for="slika3-a">AI</label>
+            </div>
+          </div>
+          <div class="slika-test kartica">
+            <input type="radio" name="slika4" id="slika4-c">
+            <input type="radio" name="slika4" id="slika4-a">
+            <img src="../resursi/slike/michelangelo_lazna.png" alt="Test Slika 4" class="test-slika">
+            <div class="odabir">
+              <label for="slika4-c">Čovjek</label>
+              <label for="slika4-a">AI</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="par-slika">
+          <div class="slika-test kartica">
+            <input type="radio" name="slika5" id="slika5-c">
+            <input type="radio" name="slika5" id="slika5-a">
+            <img src="../resursi/slike/goya_prava.jpg" alt="Test Slika 5" class="test-slika">
+            <div class="odabir">
+              <label for="slika5-c">Čovjek</label>
+              <label for="slika5-a">AI</label>
+            </div>
+          </div>
+          <div class="slika-test kartica">
+            <input type="radio" name="slika6" id="slika6-c">
+            <input type="radio" name="slika6" id="slika6-a">
+            <img src="../resursi/slike/goya_lazna.png" alt="Test Slika 6" class="test-slika">
+            <div class="odabir">
+              <label for="slika6-c">Čovjek</label>
+              <label for="slika6-a">AI</label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <section id="kontakt">
+          <h2 class="naslov-sekcije">Vaše mišljenje o kvizu</h2>
+          <form action="https://spider.foi.hr/OWT/materijali/ispis_forme.php" method="post" enctype="multipart/form-data" >
+            <div class="zeleni-okvir">
+        
+              <label for="ime">Ime i prezime:</label>
+              <input type="text" id="ime" name="ime" required>
+        
+              <label for="email">Email adresa:</label>
+              <input type="email" id="email" name="email" required>
+        
+              <label for="pogodeno">Koliko ste točno pogodili?</label>
+              <input type="number" id="pogodeno" name="pogodeno" min="0" max="6">
+        
+              <label for="zbunila">Koja slika vas je najviše zbunila?</label>
+              <select name="zbunila" id="zbunila">
+                <option value="slika1">Slika 1</option>
+                <option value="slika2">Slika 2</option>
+                <option value="slika3">Slika 3</option>
+                <option value="slika4">Slika 4</option>
+                <option value="slika5">Slika 5</option>
+                <option value="slika6">Slika 6</option>
+              </select>
+        
+              <label for="tezina">Ocijeni težinu kviza (1-10):</label>
+              <input type="range" id="tezina" name="tezina" min="1" max="10">
+        
+              <label for="datum">Datum rješavanja:</label>
+              <input type="date" id="datum" name="datum">
+        
+              <label for="vrijeme">Vrijeme rješavanja:</label>
+              <input type="time" id="vrijeme" name="vrijeme">
+        
+              <label>Koje AI alate koristiš?</label>
+
+              <div class="grupa-alati">
+                <input type="checkbox" id="gpt" name="alati[]" value="GPT-4o">
+                <label for="gpt">GPT-4o</label>
+        
+                <input type="checkbox" id="gemini" name="alati[]" value="Gemini">
+                <label for="gemini">Gemini</label>
+        
+                <input type="checkbox" id="copilot" name="alati[]" value="Copilot">
+                <label for="copilot">Copilot</label>
+                </div>
+        
+                <label for="boja">Koja boja ti najviše asocira na AI?</label>
+                <input type="color" id="boja" name="boja">
+        
+                <label for="komentar">Tvoj komentar ili dojam:</label>
+                <textarea id="komentar" name="komentar" rows="4" cols="50"></textarea>
+        
+                <label for="lozinka">Lozinka (neobavezno):</label>
+                <input type="password" id="lozinka" name="lozinka">
+        
+                <label for="datoteka">Priloži sliku koju si možda ti generirao/la:</label>
+                <input type="file" id="datoteka" name="slika_ai">
+        
+                <div class="newsletter">
+                <input type="checkbox" id="newsletter" name="newsletter" value="da">
+                <label for="newsletter">Želim primati novosti o AI alatima</label>
+                </div>
+        
+              <div class="gumbi">
+                <button type="submit">Pošalji</button>
+                <button type="reset">Poništi</button>
+              </div>
+        
+            </div>
+          </form>
+        </section>
+         
+  </main>
+
+  <footer>
+    <p>
+      <a href="https://openai.com/" target="_blank"><img src="../resursi/slike/GPT-render.png" alt="GPT-4o"></a>
+      <a href="https://gemini.google.com/app" target="_blank"><img src="../resursi/slike/Gemini-logo-render.png" alt="Gemini 2.5"></a>
+      <a href="https://copilot.microsoft.com/chats/9tYpLmwzU3WypnCg8JPJp" target="_blank"><img src="../resursi/slike/Copilot-logo-render.png" alt="Copilot"></a>
+    </p>
+    <p>
+      Jakov Anočić – &copy; 2025
+      <a href="http://validator.w3.org/check?uri=https://spider.foi.hr/OWT/2025/zadaca_01/janocic23/html/kviz.html" target="_blank">
+        <img src="https://spider.foi.hr/OWT/materijali/slike/HTML5.png" alt="HTML5 Validator">
+      </a>
+    </p>
+  </footer>
+</body>
+</html>
