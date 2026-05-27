@@ -13,6 +13,10 @@ Kratka web stranica o AI alatima za razvoj softvera. Projekt prikazuje početnu 
 
 |Početna| 
 ![AI Alati - Početna](data/AI%20Alati%20-%20Po%C4%8Detna.png)
+|Kviz|
+![Čovijek ili AI](data/Čovjek%20ili%20AI.png)
+|AI redatelj| 
+![AI redatelj](data/AIkaoredatelj.png)
 
 ## Pokretanje
 
